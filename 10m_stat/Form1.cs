@@ -428,7 +428,7 @@ namespace _10m_stat
                     tb_MS.Text = Math.Round(m - sig, 4).ToString() + "-" + Math.Round(m + sig, 4).ToString();
                     tb_M2S.Text = Math.Round(m - 2 * sig, 4).ToString() + "-" + Math.Round(m + 2 * sig, 4).ToString();
                     tb_M3S.Text = Math.Round(m - 3 * sig, 4).ToString() + "-" + Math.Round(m + 3 * sig, 4).ToString();
-                    zedGraphControl1.GraphPane.Title = "Изменение независящей от ускорения составляющей скорости дрейфа в запуске";
+                    zedGraphControl1.GraphPane.Title = "Изм. независ. от ускорения составляющей скорости дрейфа между запусками";
                     zedGraphControl1.GraphPane.XAxis.Title = Convert.ToChar(916) + "" + Convert.ToChar(969) + "н, " + Convert.ToChar(176) + "/ч";
                     zedGraphControl1.GraphPane.YAxis.Title = "Нормальное распределение";                   
                     break;
